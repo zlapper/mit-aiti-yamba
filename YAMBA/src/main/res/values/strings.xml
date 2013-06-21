@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YAMBA</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Status activity-->
+    <string name="status_title">Yamba</string>
+    <string name="status_hint">Introduce tu texto</string>
+    <string name="update_button">Enviar</string>
+    <string name="update_confirm">Status enviado!</string>
+    <string name="update_counter">Caracteres disponibles:</string>
+
+
+
+</resources>
