@@ -8,15 +8,16 @@
         android:minSdkVersion="7"
         android:targetSdkVersion="16" />
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+		android:name="co.danielgarcia.yamba.YambaApplication">
         <activity
-            android:name=".StatusActivity"
+            android:name="co.danielgarcia.yamba.StatusActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +25,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity
+            android:name=".PrefsActivity"
+            android:label="@string/title_activity_pref"
+			android:windowSoftInputMode="stateVisible|adjustResize|adjustPan">
+        </activity>
+
+		<service android:name=".UpdateService"/>
+	</application>
 
 </manifest>

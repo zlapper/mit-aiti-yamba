@@ -4,13 +4,22 @@
     <string name="app_name">YAMBA</string>
     <string name="action_settings">Settings</string>
 
-    <!--Status activity-->
+    <!-- Status activity -->
     <string name="status_title">Yamba</string>
     <string name="status_hint">Introduce tu texto</string>
     <string name="update_button">Enviar</string>
-    <string name="update_confirm">Status enviado!</string>
+    <!--<string name="update_confirm">Status enviado!</string>-->
     <string name="update_counter">Caracteres disponibles:</string>
-
-
+    <string name="usernameTitle">Nombre de Usuario</string>
+    <string name="usernameSummary">Introduce tu nombre de usuario</string>
+    <string name="passwordTitle">Contraseña</string>
+    <string name="passwordSummary">Introduce tu contraseña</string>
+    <string name="apiRootTitle">URL del API</string>
+    <string name="apiRootSummary">Introduce la URL del API (incluyendo http://)</string>
+    <string name="title_activity_pref">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="titlePrefs">Preferencias</string>
+	<string name="startService">Iniciar Servicio</string>
+	<string name="stopService">Detener Servicio</string>
 
 </resources>
